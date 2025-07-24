@@ -4,11 +4,11 @@ This project visualizes local procurement (companies by service type) and BESS p
 
 Provided one Excel database that comprises of 6 different Sheets. 
 
-The first sheet defines California  Data – California County, Service Types, Company Name, link to their Google Contact information, and location on Google Maps.
+The first sheet defines California  Data – California County Name, Service Types, Company Name, link to their Google Contact information, and location on Google Maps.
 
-The second sheet is for Arizona County Data, including county name, service type, company name, notes on the company, link to their Google Contact information, and location on Google Maps.
+The second sheet is for Arizona County Data - Arizona County name, service type, company name, notes on the company, link to their Google Contact information, and location on Google Maps.
 
-The third sheet is for Texas County Data, including county name, service type, company name, notes on the company, link to their Google Contact information, longitude and latitude of county (may ignore) and location on Google Maps. 
+The third sheet is for Texas County Data - Texas county name, service type, company name, notes on the company, link to their Google Contact information and location on Google Maps. 
 
 The fourth sheet defines the top suppliers of BESS equipment in each of the three states, with summaries of their key presence. This includes different BESS equipment materials.
 
