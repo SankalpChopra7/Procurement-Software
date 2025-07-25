@@ -29,25 +29,26 @@
 <div id="cesiumContainer"></div>
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Cesium.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.20.2/dist/xlsx.full.min.js"></script>
 <script>
 const procurement={CA:[],AZ:[],TX:[]};
 const countyMeta={CA:{},AZ:{},TX:{}};
 let solvSites=[];
-fetch('California_Arizona_Texas_Procurement_Data_Final.xlsx').then(r=>r.arrayBuffer()).then(buf=>{
-  const wb=XLSX.read(buf,{type:'array'});
-  const trimKeys=row=>{const o={};for(const k in row){o[k.trim()]=row[k];}return o;};
-  const parseSheet=(name)=>XLSX.utils.sheet_to_json(wb.Sheets[name]).map(trimKeys);
-  const caData=parseSheet('California County Data');
-  const azData=parseSheet('Arizona County Data');
-  const txData=parseSheet('Texas County Data');
+Promise.all([
+  fetch('data/California_County_Data.json').then(r=>r.json()),
+  fetch('data/Arizona_County_Data.json').then(r=>r.json()),
+  fetch('data/Texas_County_Data.json').then(r=>r.json()),
+  fetch('data/CA.json').then(r=>r.json()),
+  fetch('data/AZ.json').then(r=>r.json()),
+  fetch('data/TX.json').then(r=>r.json()),
+  fetch('data/SOLV_BESS_Sites.json').then(r=>r.json())
+]).then(([caData,azData,txData,caMeta,azMeta,txMeta,solvData])=>{
   procurement.CA=caData;
   procurement.AZ=azData;
   procurement.TX=txData;
-  parseSheet('CA').forEach(r=>{countyMeta.CA[r['California County'].trim()]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
-  parseSheet('AZ').forEach(r=>{countyMeta.AZ[r['Arizona County'].trim()]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
-  parseSheet('TX').forEach(r=>{countyMeta.TX[r['Texas County'].trim()]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
-  solvSites=parseSheet('SOLV BESS Sites').map(r=>({name:r['SOLV BESS PROJECT'],capacity:r[' Energy Capacity '],client:r['Client'],lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude'])}));
+  caMeta.forEach(r=>{countyMeta.CA[r['California County']]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
+  azMeta.forEach(r=>{countyMeta.AZ[r['Arizona County']]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
+  txMeta.forEach(r=>{countyMeta.TX[r['Texas County']]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
+  solvSites=solvData.map(r=>({name:r['SOLV BESS PROJECT'],capacity:r['MW AC Capacity'],client:r['Client'],lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude'])}));
   initLeaflet();
   initCesium();
 });

@@ -1,0 +1,402 @@
+[
+  {
+    "Texas County": "Harris",
+    "County Seat": null,
+    "Longitude": -95.383055555556,
+    "Latitude": 29.762777777778,
+    "Population (2022)": 2304580,
+    "Area (sq. km)": 1724.544507
+  },
+  {
+    "Texas County": "Dallas",
+    "County Seat": null,
+    "Longitude": -96.808888888889,
+    "Latitude": 32.779166666667,
+    "Population (2022)": 1304379,
+    "Area (sq. km)": 996.577625
+  },
+  {
+    "Texas County": "Tarrant",
+    "County Seat": null,
+    "Longitude": -97.3325,
+    "Latitude": 32.7563888888889,
+    "Population (2022)": 918915,
+    "Area (sq. km)": 916.76
+  },
+  {
+    "Texas County": "Bexar",
+    "County Seat": null,
+    "Longitude": -98.4938888888889,
+    "Latitude": 29.425,
+    "Population (2022)": 1434625,
+    "Area (sq. km)": 1208.777336
+  },
+  {
+    "Texas County": "Travis",
+    "County Seat": null,
+    "Longitude": -97.733333333333,
+    "Latitude": 30.3,
+    "Population (2022)": 961855,
+    "Area (sq. km)": 827.51276
+  },
+  {
+    "Texas County": "Collin",
+    "County Seat": null,
+    "Longitude": -96.633333333333,
+    "Latitude": 33.2,
+    "Population (2022)": 213509,
+    "Area (sq. km)": 164.848845
+  },
+  {
+    "Texas County": "Denton",
+    "County Seat": null,
+    "Longitude": -97.133333333333,
+    "Latitude": 33.216666666667,
+    "Population (2022)": 139869,
+    "Area (sq. km)": 246.273437
+  },
+  {
+    "Texas County": "Hidalgo",
+    "County Seat": null,
+    "Longitude": -98.1639,
+    "Latitude": 26.3042,
+    "Population (2022)": 100243,
+    "Area (sq. km)": 103.949814
+  },
+  {
+    "Texas County": "El Paso",
+    "County Seat": null,
+    "Longitude": -106.48861111111,
+    "Latitude": 31.759166666667,
+    "Population (2022)": 678815,
+    "Area (sq. km)": 667.289006
+  },
+  {
+    "Texas County": "Fort Bend",
+    "County Seat": null,
+    "Longitude": -95.7631,
+    "Latitude": 29.5808,
+    "Population (2022)": 11627,
+    "Area (sq. km)": 11.420519
+  },
+  {
+    "Texas County": "Montgomery",
+    "County Seat": null,
+    "Longitude": -95.550955555556,
+    "Latitude": 30.723327777778,
+    "Population (2022)": 45941,
+    "Area (sq. km)": 94.128983
+  },
+  {
+    "Texas County": "Williamson",
+    "County Seat": null,
+    "Longitude": -97.6814,
+    "Latitude": 30.6511,
+    "Population (2022)": 67176,
+    "Area (sq. km)": 140.730969
+  },
+  {
+    "Texas County": "Cameron",
+    "County Seat": null,
+    "Longitude": -97.484444444444,
+    "Latitude": 25.930277777778,
+    "Population (2022)": 186738,
+    "Area (sq. km)": 378.856492
+  },
+  {
+    "Texas County": "Brazoria",
+    "County Seat": null,
+    "Longitude": -95.427777777778,
+    "Latitude": 29.166111111111,
+    "Population (2022)": 19429,
+    "Area (sq. km)": 29.929373
+  },
+  {
+    "Texas County": "Bell",
+    "County Seat": null,
+    "Longitude": -97.4633,
+    "Latitude": 31.0589,
+    "Population (2022)": 23054,
+    "Area (sq. km)": 52.032331
+  },
+  {
+    "Texas County": "Galveston",
+    "County Seat": null,
+    "Longitude": -94.7977778,
+    "Latitude": 29.3013889,
+    "Population (2022)": 53089,
+    "Area (sq. km)": 542.199603
+  },
+  {
+    "Texas County": "Lubbock",
+    "County Seat": null,
+    "Longitude": -101.845,
+    "Latitude": 33.585,
+    "Population (2022)": 266878,
+    "Area (sq. km)": 325.749295
+  },
+  {
+    "Texas County": "Webb",
+    "County Seat": null,
+    "Longitude": -99.507222222222,
+    "Latitude": 27.506111111111,
+    "Population (2022)": 255205,
+    "Area (sq. km)": 265.689884
+  },
+  {
+    "Texas County": "McLennan",
+    "County Seat": null,
+    "Longitude": -97.155833333333,
+    "Latitude": 31.551388888889,
+    "Population (2022)": 144816,
+    "Area (sq. km)": 262.411283
+  },
+  {
+    "Texas County": "Jefferson",
+    "County Seat": null,
+    "Longitude": -94.126666666667,
+    "Latitude": 30.08,
+    "Population (2022)": 115282,
+    "Area (sq. km)": 220.303448
+  },
+  {
+    "Texas County": "Smith",
+    "County Seat": null,
+    "Longitude": -95.3005555555556,
+    "Latitude": 32.3508333333333,
+    "Population (2022)": 105995,
+    "Area (sq. km)": 147.995597
+  },
+  {
+    "Texas County": "Hays",
+    "County Seat": null,
+    "Longitude": -97.938888888889,
+    "Latitude": 29.879444444444,
+    "Population (2022)": 70301,
+    "Area (sq. km)": 88.726396
+  },
+  {
+    "Texas County": "Ellis",
+    "County Seat": null,
+    "Longitude": -96.847222222222,
+    "Latitude": 32.399722222222,
+    "Population (2022)": 41140,
+    "Area (sq. km)": 126.491169
+  },
+  {
+    "Texas County": "Johnson",
+    "County Seat": null,
+    "Longitude": -97.3925,
+    "Latitude": 32.351666666667,
+    "Population (2022)": 31352,
+    "Area (sq. km)": 97.998159
+  },
+  {
+    "Texas County": "Guadalupe",
+    "County Seat": null,
+    "Longitude": -97.965277777778,
+    "Latitude": 29.574444444444,
+    "Population (2022)": 36013,
+    "Area (sq. km)": 96.659845
+  },
+  {
+    "Texas County": "Ector",
+    "County Seat": null,
+    "Longitude": -102.36555555556,
+    "Latitude": 31.863333333333,
+    "Population (2022)": 114428,
+    "Area (sq. km)": 117.676319
+  },
+  {
+    "Texas County": "Midland",
+    "County Seat": null,
+    "Longitude": -102.09917,
+    "Latitude": 32.005,
+    "Population (2022)": 132524,
+    "Area (sq. km)": 193.082267
+  },
+  {
+    "Texas County": "Comal",
+    "County Seat": null,
+    "Longitude": -98.116666666667,
+    "Latitude": 29.7,
+    "Population (2022)": 90403,
+    "Area (sq. km)": 117.585251
+  },
+  {
+    "Texas County": "Parker",
+    "County Seat": null,
+    "Longitude": -97.785,
+    "Latitude": 32.759166666667,
+    "Population (2022)": 30854,
+    "Area (sq. km)": 71.959553
+  },
+  {
+    "Texas County": "Taylor",
+    "County Seat": null,
+    "Longitude": -99.745555555556,
+    "Latitude": 32.446388888889,
+    "Population (2022)": 125182,
+    "Area (sq. km)": 290.32185
+  },
+  {
+    "Texas County": "Grayson",
+    "County Seat": null,
+    "Longitude": -96.61,
+    "Latitude": 33.6411,
+    "Population (2022)": 43645,
+    "Area (sq. km)": 114.05041
+  },
+  {
+    "Texas County": "Nueces",
+    "County Seat": null,
+    "Longitude": -97.401944444444,
+    "Latitude": 27.742777777778,
+    "Population (2022)": 316239,
+    "Area (sq. km)": 1304.228579
+  },
+  {
+    "Texas County": "Gregg",
+    "County Seat": null,
+    "Longitude": -94.7539,
+    "Latitude": 32.5092,
+    "Population (2022)": 81683,
+    "Area (sq. km)": 144.516789
+  },
+  {
+    "Texas County": "Kaufman",
+    "County Seat": null,
+    "Longitude": -96.1097,
+    "Latitude": 33.1261,
+    "Population (2022)": 28164,
+    "Area (sq. km)": 87.201244
+  },
+  {
+    "Texas County": "Bastrop",
+    "County Seat": null,
+    "Longitude": -97.316944444444,
+    "Latitude": 30.111944444444,
+    "Population (2022)": 9688,
+    "Area (sq. km)": 23.627115
+  },
+  {
+    "Texas County": "Walker",
+    "County Seat": null,
+    "Longitude": -86.586111111111,
+    "Latitude": 34.713611111111,
+    "Population (2022)": 241114,
+    "Area (sq. km)": 544.919874
+  },
+  {
+    "Texas County": "Wichita",
+    "County Seat": null,
+    "Longitude": -98.515,
+    "Latitude": 33.896944444444,
+    "Population (2022)": 102316,
+    "Area (sq. km)": 187.088978
+  },
+  {
+    "Texas County": "Randall",
+    "County Seat": null,
+    "Longitude": -101.92583333333,
+    "Latitude": 34.979444444444,
+    "Population (2022)": 14836,
+    "Area (sq. km)": 18.26783
+  },
+  {
+    "Texas County": "Tom Green",
+    "County Seat": null,
+    "Longitude": -100.45,
+    "Latitude": 31.45,
+    "Population (2022)": 99893,
+    "Area (sq. km)": 161.196224
+  },
+  {
+    "Texas County": "Potter",
+    "County Seat": null,
+    "Longitude": -101.84527777778,
+    "Latitude": 35.199166666667,
+    "Population (2022)": 200393,
+    "Area (sq. km)": 266.556133
+  },
+  {
+    "Texas County": "Victoria",
+    "County Seat": null,
+    "Longitude": -96.993333333333,
+    "Latitude": 28.816944444444,
+    "Population (2022)": 65534,
+    "Area (sq. km)": 96.416602
+  },
+  {
+    "Texas County": "Orange",
+    "County Seat": null,
+    "Longitude": -93.759166666667,
+    "Latitude": 30.109166666667,
+    "Population (2022)": 19324,
+    "Area (sq. km)": 58.14803
+  },
+  {
+    "Texas County": "Hunt",
+    "County Seat": null,
+    "Longitude": -96.1097,
+    "Latitude": 33.1261,
+    "Population (2022)": 28164,
+    "Area (sq. km)": 87.201244
+  },
+  {
+    "Texas County": "Brazos",
+    "County Seat": null,
+    "Longitude": -96.3667,
+    "Latitude": 30.6656,
+    "Population (2022)": 83980,
+    "Area (sq. km)": 118.170039
+  },
+  {
+    "Texas County": "Anderson",
+    "County Seat": null,
+    "Longitude": -95.638611111111,
+    "Latitude": 31.758055555556,
+    "Population (2022)": 18544,
+    "Area (sq. km)": 50.832557
+  },
+  {
+    "Texas County": "Harrison",
+    "County Seat": null,
+    "Longitude": -94.5,
+    "Latitude": 32.55,
+    "Population (2022)": 23392,
+    "Area (sq. km)": 76.814667
+  },
+  {
+    "Texas County": "Rockwall",
+    "County Seat": null,
+    "Longitude": -96.459722222222,
+    "Latitude": 32.92,
+    "Population (2022)": 47251,
+    "Area (sq. km)": 77.334608
+  },
+  {
+    "Texas County": "Henderson",
+    "County Seat": null,
+    "Longitude": -95.8492,
+    "Latitude": 32.2028,
+    "Population (2022)": 12857,
+    "Area (sq. km)": 49.623347
+  },
+  {
+    "Texas County": "Navarro",
+    "County Seat": null,
+    "Longitude": -96.469444444444,
+    "Latitude": 32.0925,
+    "Population (2022)": 25109,
+    "Area (sq. km)": 60.419141
+  },
+  {
+    "Texas County": "Liberty",
+    "County Seat": null,
+    "Longitude": -94.7967,
+    "Latitude": 30.0575,
+    "Population (2022)": 8279,
+    "Area (sq. km)": 107.01111
+  }
+]

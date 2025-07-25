@@ -1,0 +1,392 @@
+[
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "BESS Equipment",
+    "Unnamed: 2": "Top BESS Suppliers : California",
+    "Unnamed: 3": "Key Presence in California",
+    "Unnamed: 4": "Top BESS Suppliers : Arizona",
+    "Unnamed: 5": "Key Presence in Arizona",
+    "Unnamed: 6": "Top BESS Suppliers : Texas",
+    "Unnamed: 7": "Key Presence in Texas"
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Battery Enclosures",
+    "Unnamed: 2": "Fluence",
+    "Unnamed: 3": "Fluence: A dominant force with a huge portfolio of large-scale CA projects. Tesla: While HQ is in TX, its engineering base, historical roots, and massive operational footprint (Moss Landing, etc.) give it a top position in CA. NextEra: A major developer and operator of many critical BESS assets in the state. LG ES: Key technology supplier for landmark projects like Edwards & Sanborn. Ameresco: A leading integrator securing contracts for multiple grid-scale BESS projects.",
+    "Unnamed: 4": "1. NextEra Energy Resources",
+    "Unnamed: 5": "NextEra & LG ES: Key partners on the state's largest operational BESS projects. KORE Power: Building a major battery manufacturing \"KOREPlex\" in Buckeye, AZ, positioning it as a future leader. Fluence: A top-tier integrator with a presence in AZ projects. Ørsted: A major developer with large solar+storage projects in AZ.",
+    "Unnamed: 6": "1. Tesla",
+    "Unnamed: 7": "Tesla: Texas-based HQ (Austin), a Gigafactory, and numerous large-scale BESS deployments cement its #1 position in its home state. Fluence, Wärtsilä, Sungrow: Have all announced and commissioned major projects across the ERCOT market, capitalizing on the boom. Jupiter Power: A key Texas-based developer with a very large pipeline of standalone storage projects."
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Tesla",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "2. LG Energy Solution",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "2. Fluence",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "NextEra Energy Resources",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "3. KORE Power",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "3. Wärtsilä",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "LG Energy Solution",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "4. Fluence",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "4. Sungrow",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Ameresco",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "5. Ørsted",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "5. Jupiter Power",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Battery Modules / Racks",
+    "Unnamed: 2": "1. LG Energy Solution",
+    "Unnamed: 3": "LG, Samsung, BYD: Confirmed suppliers for the world's largest operational solar+storage project (Edwards & Sanborn in Kern County), setting their position at the top. CATL: The world's largest battery maker, supplying numerous integrators active in CA. Tesla: Manufactures its own batteries for its significant project pipeline.",
+    "Unnamed: 4": "1. LG Energy Solution",
+    "Unnamed: 5": "LG ES: Key supplier for the largest projects in the state, including for US-made BESS. KORE Power: Set to become a major domestic supplier from its AZ factory. CATL & Samsung: Global leaders supplying various projects. First Solar: An AZ-based global leader in PV, increasingly involved in integrated solar+storage solutions.",
+    "Unnamed: 6": "1. CATL",
+    "Unnamed: 7": "CATL: The dominant global supplier, providing cells to many of the integrators building projects in Texas. Tesla: Manufactures its own batteries locally. LG, Samsung, BYD: Other top-tier global suppliers feeding the massive demand from the Texas BESS boom."
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "2. Samsung SDI",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "2. KORE Power",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "2. Tesla",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "3. BYD",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "3. CATL",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "3. LG Energy Solution",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "4. CATL",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "4. Samsung SDI",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "4. Samsung SDI",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "5. Tesla",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "5. First Solar",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "5. BYD",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Inverters / PCS",
+    "Unnamed: 2": "1. Sungrow",
+    "Unnamed: 3": "Sungrow & Power Electronics: Market leaders for utility-scale solar and storage inverters, critical for CA's projects. SMA: Strong presence with a CA office and long history in the state's solar market. Tesla & Schneider: Provide their own deeply integrated inverter solutions.",
+    "Unnamed: 4": "1. Sungrow",
+    "Unnamed: 5": "These are all dominant inverter suppliers for utility-scale solar projects, which are the primary driver of BESS installations in Arizona's sunny environment.",
+    "Unnamed: 6": "1. Sungrow",
+    "Unnamed: 7": "Sungrow, Power Electronics, SMA: Leaders in the massive Texas renewables market, their inverters are the go-to for co-located and standalone storage projects. Tesla: Provides its own integrated PCS. GoodWe: A growing player in the C&I and utility space in Texas."
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "2. Power Electronics",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "2. Power Electronics",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "2. Power Electronics",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "3. SMA",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "3. SMA",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "3. SMA",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "4. Tesla",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "4. Ingeteam",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "4. Tesla",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "5. Schneider Electric",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "5. GE Renewable Energy",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "5. GoodWe",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Transformers and Switchgears",
+    "Unnamed: 2": "1. Siemens Energy",
+    "Unnamed: 3": "These are the undisputed global leaders for US utility grid infrastructure. All have a major presence and supply the essential interconnection equipment for projects with utilities like PG&E and SCE.",
+    "Unnamed: 4": "1. Eaton",
+    "Unnamed: 5": "Standard suppliers for utility (e.g., Salt River Project, APS) interconnections. All have a strong and long-established presence in the region.",
+    "Unnamed: 6": "1. Siemens Energy",
+    "Unnamed: 7": "Standard equipment suppliers for any major US grid connection. Virginia Transformer is a key US-based manufacturer supplying many renewable projects in Texas."
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "2. Schneider Electric",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "2. Schneider Electric",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "2. Eaton",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "3. Eaton",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "3. Siemens Energy",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "3. Schneider Electric",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "4. Hitachi Energy",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "4. Hitachi Energy",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "4. Hitachi Energy",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "5. ABB",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "5. ABB",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "5. Virginia Transformer Corp.",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Energy Management System (EMS)",
+    "Unnamed: 2": "1. Fluence",
+    "Unnamed: 3": "Fluence & Tesla: Their proprietary EMS platforms (Mosaic, Autobidder) are market-leading and control the largest systems. Wärtsilä: Has a strong software platform and notable projects. Stem & Nor-Cal Controls: Both are California-based companies specializing in advanced EMS and controls, giving them deep regional expertise.",
+    "Unnamed: 4": "1. LG Energy Solution (Vertech)",
+    "Unnamed: 5": "LG ES (via Vertech): Provides its AEROS software for major AZ projects. Fluence & NextEra: Use their sophisticated platforms to control their assets. KORE Power: Developing its own integrated EMS to pair with its batteries. Schneider: Offers its EcoStruxure platform for grid management.",
+    "Unnamed: 6": "1. Tesla",
+    "Unnamed: 7": "Tesla & Fluence: Their advanced EMS platforms are essential for bidding into the complex, real-time ERCOT market. Wärtsilä: Also a leader in real-time grid services software. Emerson: A major industrial automation provider with a strong presence in the Texas energy sector. Base Power: An innovative Texas-based company providing residential BESS/EMS solutions."
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "2. Tesla",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "2. Fluence",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "2. Fluence",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "3. Wärtsilä",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "3. NextEra Energy Resources",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "3. Wärtsilä",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "4. Stem, Inc.",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "4. KORE Power",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "4. Emerson",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "5. Nor-Cal Controls",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "5. Schneider Electric",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "5. Base Power",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Surge Arresters",
+    "Unnamed: 2": "TE Connectivity",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "TE Connectivity",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "TE Connectivity",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Eaton",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "Eaton",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "Eaton",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Hubbell",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "Hubbell",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "Hubbell",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Siemens Energy",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "Siemens Energy",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "Siemens Energy",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Hitachi Energy",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "Hitachi Energy",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "Hitachi Energy",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Aux Switchboards",
+    "Unnamed: 2": "IEM Industrial Electric Mfg. (iemfg.com)",
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "MV Cable",
+    "Unnamed: 2": "AWG | buyawg.com",
+    "Unnamed: 3": null,
+    "Unnamed: 4": "AWG | buyawg.com",
+    "Unnamed: 5": null,
+    "Unnamed: 6": "AWG | buyawg.com",
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "CJPs",
+    "Unnamed: 2": "Raychem Cable",
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "TE Connectivity",
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Richards Mfg Co.",
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Steel Piles",
+    "Unnamed: 2": "Qualico Steel Co. Inc.",
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Steel Top Plates",
+    "Unnamed: 2": "Kingdom Steel LLC",
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Unnamed: 7": null
+  },
+  {
+    "Unnamed: 0": null,
+    "Unnamed: 1": "Fire Water Tank",
+    "Unnamed: 2": "Pioneer Water Tanks",
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Unnamed: 7": null
+  }
+]

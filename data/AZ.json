@@ -1,0 +1,122 @@
+[
+  {
+    "Arizona County": "Apache",
+    "County Seat": null,
+    "Longitude": -109.37166666667,
+    "Latitude": 34.501944444444,
+    "Population (2022)": 3417,
+    "Area (sq. km)": 67.6
+  },
+  {
+    "Arizona County": "Cochise",
+    "County Seat": null,
+    "Longitude": -109.89777777778,
+    "Latitude": 31.418333333333,
+    "Population (2022)": 4923,
+    "Area (sq. km)": 13.37162
+  },
+  {
+    "Arizona County": "Coconino",
+    "County Seat": null,
+    "Longitude": -111.63111111111,
+    "Latitude": 35.199166666667,
+    "Population (2022)": 76831,
+    "Area (sq. km)": 167.669936
+  },
+  {
+    "Arizona County": "Gila",
+    "County Seat": null,
+    "Longitude": -110.78166666667,
+    "Latitude": 33.399722222222,
+    "Population (2022)": 7249,
+    "Area (sq. km)": 47.227854
+  },
+  {
+    "Arizona County": "Graham",
+    "County Seat": null,
+    "Longitude": -109.71444444444,
+    "Latitude": 32.823055555556,
+    "Population (2022)": 10129,
+    "Area (sq. km)": 22.179127
+  },
+  {
+    "Arizona County": "Greenlee",
+    "County Seat": null,
+    "Longitude": -109.29618,
+    "Latitude": 33.0509,
+    "Population (2022)": 3933,
+    "Area (sq. km)": 38.387928
+  },
+  {
+    "Arizona County": "La Paz",
+    "County Seat": null,
+    "Longitude": -114.28888888889,
+    "Latitude": 34.15,
+    "Population (2022)": 3417,
+    "Area (sq. km)": 56.954168
+  },
+  {
+    "Arizona County": "Maricopa",
+    "County Seat": null,
+    "Longitude": -112.073888888889,
+    "Latitude": 33.4483333333333,
+    "Population (2022)": 1608139,
+    "Area (sq. km)": 1341.477468
+  },
+  {
+    "Arizona County": "Mohave",
+    "County Seat": null,
+    "Longitude": -114.025,
+    "Latitude": 35.208333333333,
+    "Population (2022)": 32689,
+    "Area (sq. km)": 90.183322
+  },
+  {
+    "Arizona County": "Navajo",
+    "County Seat": null,
+    "Longitude": -110.16277777778,
+    "Latitude": 34.907222222222,
+    "Population (2022)": 4858,
+    "Area (sq. km)": 44.987656
+  },
+  {
+    "Arizona County": "Pima",
+    "County Seat": null,
+    "Longitude": -110.92638888889,
+    "Latitude": 32.221666666667,
+    "Population (2022)": 542629,
+    "Area (sq. km)": 598.609855
+  },
+  {
+    "Arizona County": "Pinal",
+    "County Seat": null,
+    "Longitude": -111.38694444444,
+    "Latitude": 33.038611111111,
+    "Population (2022)": 26785,
+    "Area (sq. km)": 162.19269
+  },
+  {
+    "Arizona County": "Santa Cruz",
+    "County Seat": null,
+    "Longitude": -110.93916666667,
+    "Latitude": 31.353888888889,
+    "Population (2022)": 19770,
+    "Area (sq. km)": 53.96729
+  },
+  {
+    "Arizona County": "Yavapai",
+    "County Seat": null,
+    "Longitude": -112.4685025,
+    "Latitude": 34.5400242,
+    "Population (2022)": 45827,
+    "Area (sq. km)": 116.969378
+  },
+  {
+    "Arizona County": "Yuma",
+    "County Seat": null,
+    "Longitude": -114.61527777778,
+    "Latitude": 32.692222222222,
+    "Population (2022)": 95548,
+    "Area (sq. km)": 313.620528
+  }
+]
