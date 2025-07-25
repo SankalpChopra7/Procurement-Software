@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 from pathlib import Path
+from urllib.parse import quote_plus
 
 # Load Excel file
 xlsx = pd.ExcelFile('California_Arizona_Texas_Procurement_Data_Final.xlsx')
@@ -24,6 +25,23 @@ for state_sheet, state_code in [
     # rename County column generically
     df = df.rename(columns={'County': 'County'})
     records = df.to_dict(orient='records')
+    for rec in records:
+        company = rec.get('Company Name', '')
+        county = rec.get('County', '')
+        # Normalize missing values to None
+        for key in ('Notes', 'Contact', 'Google Maps'):
+            if pd.isna(rec.get(key)):
+                rec[key] = None
+        if not rec.get('Contact') and company:
+            rec['Contact'] = (
+                'https://www.google.com/search?q=' +
+                quote_plus(f'{company} contact information')
+            )
+        if not rec.get('Google Maps') and company and county:
+            rec['Google Maps'] = (
+                'https://www.google.com/maps/search/' +
+                quote_plus(f'{company}, {county} County, {state_code}')
+            )
     procurement[state_code] = records
 
 # Parse county meta data
@@ -38,12 +56,22 @@ for meta_sheet, state_code, county_col in [
         county = row[county_col]
         if not county or pd.isna(county):
             continue
+        def get_val(col):
+            val = row.get(col)
+            if pd.isna(val):
+                return None
+            return val
+        def get_float(col):
+            val = row.get(col)
+            if pd.isna(val):
+                return None
+            return float(val)
         county_meta[state_code][county] = {
-            'lat': float(row['Latitude']),
-            'lon': float(row['Longitude']),
-            'population': row['Population (2022)'],
-            'area': row['Area (sq. km)'],
-            'seat': row['County Seat'],
+            'lat': get_float('Latitude'),
+            'lon': get_float('Longitude'),
+            'population': get_val('Population (2022)'),
+            'area': get_val('Area (sq. km)'),
+            'seat': get_val('County Seat'),
         }
 
 # Parse SOLV BESS Sites
@@ -66,6 +94,6 @@ data = {
 }
 
 with open('frontend/data.json', 'w') as f:
-    json.dump(data, f, indent=2)
+    json.dump(data, f, indent=2, allow_nan=False)
 
 print('Wrote frontend/data.json')
