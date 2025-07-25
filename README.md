@@ -1,17 +1,13 @@
 # Procurement-Software
 
-This project visualizes local procurement (companies by service type) and BESS projects from an Excel workbook on an interactive map. The map can switch between 2D and 3D views using CesiumJS with OpenStreetMap tiles. Weather data is fetched from openstreetmap Key:monitoring:weather. The goal is to create an interactive map which displays a marker over the county capital and lists all the service type followed by company name and notes. The 'Contact' column displays a hyperlink that redirects you to a google search of the company (=HYPERLINK("https://www.google.com/search?q=" & ENCODEURL(C2 & " contact information"), "Contact Information")) and not precise contact information. The 'location on google maps' column does the same =HYPERLINK("https://www.google.com/maps/search/" & ENCODEURL(C3 & ", " & A3 & " County, California"), "Link to Google Maps"). These contact and location on google maps hyperlinks should allow the user to be rerouted to the companies google search when clicked upon on the interactive map. 
+The goal is to create an interactive map which displays a marker over the county capital and displays all the data associated with that county. The 'Contact' column and google map column should be relayed with 
 
-Provided one Excel database that comprises of 6 different Sheets. 
+const contactUrl = 
+  'https://www.google.com/search?q=' +
+  encodeURIComponent(company + ' contact information');
 
-The first sheet defines California  Data – California County Name, Service Types, Company Name, link to their Google Contact information, and location on Google Maps.
+const mapUrl =    
+  'https://www.google.com/maps/search/' +
+  encodeURIComponent(company + ', ' + county + ' County, ' + state);
 
-The second sheet is for Arizona County Data - Arizona County name, service type, company name, notes on the company, link to their Google Contact information, and location on Google Maps.
-
-The third sheet is for Texas County Data - Texas county name, service type, company name, notes on the company, link to their Google Contact information and location on Google Maps. 
-
-The fourth sheet defines the top suppliers of BESS equipment in each of the three states, with summaries of their key presence. This includes different BESS equipment materials.
-
-The fifth sheet defines all the company names (listed as subcontracters) which are currently on SOLV MSA (master suject agreement) 
-
-The sixth sheet lists all of SOLV's present BESS sites in California, Arizona, Texas along with their Energy Capacity and Client. 
+Provided one Excel database that comprises of 9 different worksheets.  The first sheet defines California Data – County Name, Service Types, Company Name, notes, contact, google maps columns. The second sheet - 'CA' has listed all the county specific data - county seat, longitude and latitude info, population, area.  The third sheet is for Arizona County Data - Arizona County name, service type, company name, notes, contact, google maps. The fourth sheet - 'AZ' has listed all the county specific data - county seat, longitude and latitude info, population, area. The fifth sheet is for Texas County Data - Texas county name, service type, company name, notes on the company,  Contact information, Google Maps. The sixth sheet - 'TX' has listed all the county specific data - county seat, longitude and latitude info, population, area.  The seventh sheet defines the top suppliers of BESS equipment in each of the three states, with summaries of their key presence. This includes different BESS equipment materials.  The eighth sheet defines all the company names (listed as subcontracters) which are currently on SOLV MSA (master suject agreement). The ninth sheet lists all of SOLV's present BESS sites in California, Arizona, Texas along with their Energy Capacity and Client and long/lat.
