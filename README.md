@@ -34,5 +34,4 @@ Serve the repository via a local HTTP server and open the app in your browser:
 python -m http.server
 ```
 
-Then navigate to `http://localhost:8000/` which will redirect to
-`frontend/index.html`.
+Then browse to `http://localhost:8000/frontend/index.html` to open the app.
