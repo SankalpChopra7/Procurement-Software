@@ -25,3 +25,14 @@ python parse_excel.py
 
 The script creates `frontend/data.js` exporting three constants (`procurement`,
 `countyMeta` and `solvSites`) which the frontend imports at runtime.
+
+## Running the Frontend
+
+Serve the repository via a local HTTP server and open the app in your browser:
+
+```bash
+python -m http.server
+```
+
+Then navigate to `http://localhost:8000/` which will redirect to
+`frontend/index.html`.
