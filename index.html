@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Procurement Map and Globe</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Widgets/widgets.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html,body {height:100%;margin:0;font-family:'Inter',sans-serif;}
+  #map,#cesiumContainer{position:absolute;top:0;bottom:0;width:100%;height:100%;}
+  #cesiumContainer{display:none;}
+  .toggle-btn{ @apply bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 px-3 py-1 rounded m-1; }
+  .popup-list li{margin-bottom:4px;}
+</style>
+<script>tailwind.config={darkMode:'class'};</script>
+</head>
+<body class="light">
+<div class="absolute z-10 m-2 flex space-x-2">
+  <button id="btn2d" class="toggle-btn">2D Map</button>
+  <button id="btn3d" class="toggle-btn">3D Globe</button>
+  <label class="flex items-center space-x-1 ml-2"><input type="checkbox" id="themeToggle"><span class="text-sm">Dark Mode</span></label>
+</div>
+<div id="map"></div>
+<div id="cesiumContainer"></div>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Cesium.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.20.2/dist/xlsx.full.min.js"></script>
+<script>
+const procurement={CA:[],AZ:[],TX:[]};
+const countyMeta={CA:{},AZ:{},TX:{}};
+let solvSites=[];
+fetch('California_Arizona_Texas_Procurement_Data_Final.xlsx').then(r=>r.arrayBuffer()).then(buf=>{
+  const wb=XLSX.read(buf,{type:'array'});
+  const trimKeys=row=>{const o={};for(const k in row){o[k.trim()]=row[k];}return o;};
+  const parseSheet=(name)=>XLSX.utils.sheet_to_json(wb.Sheets[name]).map(trimKeys);
+  const caData=parseSheet('California County Data');
+  const azData=parseSheet('Arizona County Data');
+  const txData=parseSheet('Texas County Data');
+  procurement.CA=caData;
+  procurement.AZ=azData;
+  procurement.TX=txData;
+  parseSheet('CA').forEach(r=>{countyMeta.CA[r['California County'].trim()]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
+  parseSheet('AZ').forEach(r=>{countyMeta.AZ[r['Arizona County'].trim()]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
+  parseSheet('TX').forEach(r=>{countyMeta.TX[r['Texas County'].trim()]={lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude']),population:r['Population (2022)'],area:r['Area (sq. km)'],seat:r['County Seat']};});
+  solvSites=parseSheet('SOLV BESS Sites').map(r=>({name:r['SOLV BESS PROJECT'],capacity:r[' Energy Capacity '],client:r['Client'],lat:parseFloat(r['Latitude']),lon:parseFloat(r['Longitude'])}));
+  initLeaflet();
+  initCesium();
+});
+function contactUrl(company){return 'https://www.google.com/search?q='+encodeURIComponent(company+' contact information');}
+function mapUrl(company,county,state){return 'https://www.google.com/maps/search/'+encodeURIComponent(company+', '+county+' County, '+state);}
+let map,light,dark,layers={},solvLayer;
+function initLeaflet(){
+  light=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap'});
+  dark=L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; OpenStreetMap &copy; CARTO'});
+  map=L.map('map',{center:[37.8,-96],zoom:4,layers:[light]});
+  for(const state of ['CA','AZ','TX']){
+    const group=L.layerGroup();
+    const countyServices={};
+    procurement[state].forEach(row=>{const c=row['County'].trim();(countyServices[c]=countyServices[c]||[]).push(row);});
+    for(const county in countyServices){
+      const meta=countyMeta[state][county];
+      if(!meta) continue;
+      const items=countyServices[county].map(r=>{
+        const notes=r['Notes']?` (${r['Notes']})`:'';
+        const comp=r['Company Name'];
+        const serv=r['Service Type'];
+        const contact=contactUrl(comp);
+        const mapu=mapUrl(comp,county,state);
+        return `<li><strong>${serv}</strong> – ${comp}${notes} [<a href="${contact}" target="_blank">Contact</a>] [<a href="${mapu}" target="_blank">Map</a>]</li>`;
+      }).join('');
+      const popup=`<h3 class="font-semibold mb-1">${county} County (${state})</h3><ul class="popup-list">${items}</ul>`;
+      L.marker([meta.lat,meta.lon]).bindPopup(popup).addTo(group);
+    }
+    layers[state]=group.addTo(map);
+  }
+  solvLayer=L.layerGroup();
+  solvSites.forEach(s=>{
+    L.circleMarker([s.lat,s.lon],{radius:6,color:'orange',fillColor:'orange',fillOpacity:0.8}).bindPopup(`<strong>${s.name}</strong><br>${s.capacity}<br>${s.client}`).addTo(solvLayer);
+  });
+  solvLayer.addTo(map);
+  L.control.layers({Light:light,Dark:dark},{California:layers.CA,Arizona:layers.AZ,Texas:layers.TX,'SOLV BESS Sites':solvLayer}).addTo(map);
+}
+let viewer,cesiumStates={CA:[],AZ:[],TX:[],SOLV:[]};
+function initCesium(){
+  viewer=new Cesium.Viewer('cesiumContainer',{imageryProvider:new Cesium.UrlTemplateImageryProvider({url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',subdomains:['a','b','c']}),baseLayerPicker:false,terrainProvider:Cesium.createWorldTerrain()});
+  const pin='https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-icon.png';
+  for(const state of ['CA','AZ','TX']){
+    const countyServices={};
+    procurement[state].forEach(r=>{const c=r['County'].trim();(countyServices[c]=countyServices[c]||[]).push(r);});
+    for(const county in countyServices){
+      const meta=countyMeta[state][county];
+      if(!meta) continue;
+      const items=countyServices[county].map(r=>{
+        const notes=r['Notes']?` (${r['Notes']})`:'';
+        const comp=r['Company Name'];
+        const serv=r['Service Type'];
+        const contact=contactUrl(comp);
+        const mapu=mapUrl(comp,county,state);
+        return `<li><strong>${serv}</strong> – ${comp}${notes} [<a href="${contact}" target="_blank">Contact</a>] [<a href="${mapu}" target="_blank">Map</a>]</li>`;
+      }).join('');
+      const desc=`<h3 class=\"font-semibold mb-1\">${county} County (${state})</h3><ul class=\"popup-list\">${items}</ul>`;
+      const entity=viewer.entities.add({position:Cesium.Cartesian3.fromDegrees(meta.lon,meta.lat),billboard:{image:pin,scale:0.5},description:desc});
+      cesiumStates[state].push(entity);
+    }
+  }
+  solvSites.forEach(s=>{
+    const entity=viewer.entities.add({position:Cesium.Cartesian3.fromDegrees(s.lon,s.lat),point:{pixelSize:10,color:Cesium.Color.ORANGE},description:`<strong>${s.name}</strong><br>${s.capacity}<br>${s.client}`});
+    cesiumStates.SOLV.push(entity);
+  });
+}
+function toggleEntities(state,show){cesiumStates[state].forEach(e=>e.show=show);}
+</script>
+<script>
+const btn2d=document.getElementById('btn2d');
+const btn3d=document.getElementById('btn3d');
+btn2d.onclick=()=>{document.getElementById('cesiumContainer').style.display='none';document.getElementById('map').style.display='block';if(map) map.invalidateSize();};
+btn3d.onclick=()=>{document.getElementById('map').style.display='none';document.getElementById('cesiumContainer').style.display='block';};
+document.getElementById('themeToggle').addEventListener('change',e=>{
+  document.body.classList.toggle('dark',e.target.checked);
+  if(e.target.checked){if(map.hasLayer(light)){map.removeLayer(light);dark.addTo(map);}viewer.scene.imageryLayers.get(0).imageryProvider=new Cesium.UrlTemplateImageryProvider({url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',subdomains:['a','b','c']});}
+  else{if(map.hasLayer(dark)){map.removeLayer(dark);light.addTo(map);}viewer.scene.imageryLayers.get(0).imageryProvider=new Cesium.UrlTemplateImageryProvider({url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',subdomains:['a','b','c']});}
+});
+</script>
+</body>
+</html>
