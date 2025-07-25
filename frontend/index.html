@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Procurement Map and Globe</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Widgets/widgets.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    html,body {height:100%;margin:0;font-family:'Inter',sans-serif;}
+    #map,#cesiumContainer{position:absolute;top:0;bottom:0;width:100%;height:100%;}
+    #cesiumContainer{display:none;}
+    .toggle-btn{ @apply bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 px-3 py-1 rounded m-1; }
+    .popup-list li{margin-bottom:4px;}
+  </style>
+  <script>tailwind.config={darkMode:'class'};</script>
+</head>
+<body class="light">
+<div class="absolute z-10 m-2 flex space-x-2">
+  <button id="btn2d" class="toggle-btn">2D Map</button>
+  <button id="btn3d" class="toggle-btn">3D Globe</button>
+  <label class="flex items-center space-x-1 ml-2"><input type="checkbox" id="themeToggle"><span class="text-sm">Dark Mode</span></label>
+</div>
+<div id="map"></div>
+<div id="cesiumContainer"></div>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.113/Build/Cesium/Cesium.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
