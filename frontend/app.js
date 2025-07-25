@@ -1,18 +1,7 @@
-const procurement = { CA: [], AZ: [], TX: [] };
-const countyMeta = { CA: {}, AZ: {}, TX: {} };
-let solvSites = [];
+import { procurement, countyMeta, solvSites } from './data.js';
 
-fetch('data.json')
-  .then(r => r.json())
-  .then(data => {
-    Object.assign(procurement, data.procurement);
-    Object.assign(countyMeta.CA, data.countyMeta.CA);
-    Object.assign(countyMeta.AZ, data.countyMeta.AZ);
-    Object.assign(countyMeta.TX, data.countyMeta.TX);
-    solvSites = data.solvSites;
-    initLeaflet();
-    initCesium();
-  });
+initLeaflet();
+initCesium();
 
 function contactUrl(company) {
   return 'https://www.google.com/search?q=' + encodeURIComponent(company + ' contact information');

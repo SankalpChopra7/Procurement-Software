@@ -105,7 +105,18 @@ data = {
 }
 
 Path('frontend').mkdir(exist_ok=True)
-with open('frontend/data.json', 'w') as f:
-    json.dump(data, f, indent=2, allow_nan=False)
 
-print('Wrote frontend/data.json')
+# Write the bundle as an ES module so the front-end can import it directly
+module_parts = [
+    "export const procurement = ",
+    json.dumps(procurement, indent=2, allow_nan=False),
+    "\nexport const countyMeta = ",
+    json.dumps(county_meta, indent=2, allow_nan=False),
+    "\nexport const solvSites = ",
+    json.dumps(solv_sites, indent=2, allow_nan=False),
+    "\n",
+]
+with open('frontend/data.js', 'w') as f:
+    f.write(''.join(module_parts))
+
+print('Wrote frontend/data.js')
