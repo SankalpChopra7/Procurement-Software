@@ -12,6 +12,12 @@ fetch('data.json')
     solvSites = data.solvSites;
     initLeaflet();
     initCesium();
+  })
+  .catch(err => {
+    console.error(err);
+    alert('Failed to load data');
+    const el = document.getElementById('errorMessage');
+    if (el) el.classList.remove('hidden');
   });
 
 function contactUrl(company) {
