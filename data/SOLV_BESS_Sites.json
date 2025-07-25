@@ -1,0 +1,173 @@
+[
+  {
+    "SOLV BESS PROJECT": "Zeta Solar",
+    "Location": null,
+    "MW AC Capacity": 75,
+    "MW DC Capacity": 96,
+    "Client": "Longroad",
+    "Longitude": -120.85,
+    "Latitude": 37.058333333333
+  },
+  {
+    "SOLV BESS PROJECT": "Cherry Phase 1",
+    "Location": null,
+    "MW AC Capacity": 250,
+    "MW DC Capacity": 325,
+    "Client": "CIM",
+    "Longitude": -119.78638888889,
+    "Latitude": 36.303888888889
+  },
+  {
+    "SOLV BESS PROJECT": "Aquamarine",
+    "Location": null,
+    "MW AC Capacity": 250,
+    "MW DC Capacity": 325,
+    "Client": "CIM",
+    "Longitude": -119.823,
+    "Latitude": 36.1894
+  },
+  {
+    "SOLV BESS PROJECT": "Azalea",
+    "Location": null,
+    "MW AC Capacity": 60,
+    "MW DC Capacity": 84,
+    "Client": "Idemitsu",
+    "Longitude": -119.69416666667,
+    "Latitude": 35.616388888889
+  },
+  {
+    "SOLV BESS PROJECT": "Pelicans Jaw",
+    "Location": null,
+    "MW AC Capacity": 440,
+    "MW DC Capacity": 574,
+    "Client": "SB Energy",
+    "Longitude": -119.69416666667,
+    "Latitude": 35.616388888889
+  },
+  {
+    "SOLV BESS PROJECT": "Snowflake",
+    "Location": null,
+    "MW AC Capacity": 475,
+    "MW DC Capacity": 593,
+    "Client": "Clenera",
+    "Longitude": -110.16277777778,
+    "Latitude": 34.907222222222
+  },
+  {
+    "SOLV BESS PROJECT": "CO Bar C",
+    "Location": null,
+    "MW AC Capacity": 206,
+    "MW DC Capacity": 258,
+    "Client": "Clenera",
+    "Longitude": -112.19,
+    "Latitude": 35.249444444444
+  },
+  {
+    "SOLV BESS PROJECT": "Maricopa Phase 1",
+    "Location": null,
+    "MW AC Capacity": 0,
+    "MW DC Capacity": 250,
+    "Client": "Copia",
+    "Longitude": -112.93722222222,
+    "Latitude": 33.493611111111
+  },
+  {
+    "SOLV BESS PROJECT": "Maricopa Phase 2",
+    "Location": null,
+    "MW AC Capacity": 0,
+    "MW DC Capacity": 618,
+    "Client": "Copia",
+    "Longitude": -112.93722222222,
+    "Latitude": 33.493611111111
+  },
+  {
+    "SOLV BESS PROJECT": "Harquahala",
+    "Location": null,
+    "MW AC Capacity": 0,
+    "MW DC Capacity": 0,
+    "Client": "Copia",
+    "Longitude": -112.93722222222,
+    "Latitude": 33.493611111111
+  },
+  {
+    "SOLV BESS PROJECT": "Nightfall",
+    "Location": null,
+    "MW AC Capacity": 180,
+    "MW DC Capacity": 212,
+    "Client": "Sol Systems",
+    "Longitude": -99.7897,
+    "Latitude": 29.2144
+  },
+  {
+    "SOLV BESS PROJECT": "El Patrimonio",
+    "Location": null,
+    "MW AC Capacity": 150,
+    "MW DC Capacity": 195,
+    "Client": "Ashtrom",
+    "Longitude": -98.4938888888889,
+    "Latitude": 29.425
+  },
+  {
+    "SOLV BESS PROJECT": "Stillhouse",
+    "Location": null,
+    "MW AC Capacity": 210,
+    "MW DC Capacity": 281,
+    "Client": "Matrix",
+    "Longitude": -97.2286,
+    "Latitude": 30.9325
+  },
+  {
+    "SOLV BESS PROJECT": "Big Rooter West",
+    "Location": null,
+    "MW AC Capacity": 400,
+    "MW DC Capacity": 496,
+    "Client": "Panamint",
+    "Longitude": -96.676111111111,
+    "Latitude": 31.166111111111
+  },
+  {
+    "SOLV BESS PROJECT": "Tormes",
+    "Location": null,
+    "MW AC Capacity": 355,
+    "MW DC Capacity": 455,
+    "Client": "Matrix",
+    "Longitude": -96.6369,
+    "Latitude": 32.0989
+  },
+  {
+    "SOLV BESS PROJECT": "Tennyson",
+    "Location": null,
+    "MW AC Capacity": 150,
+    "MW DC Capacity": 195,
+    "Client": "Akuo",
+    "Longitude": -100.28611111111,
+    "Latitude": 31.741944444444
+  },
+  {
+    "SOLV BESS PROJECT": "1000 Mile",
+    "Location": null,
+    "MW AC Capacity": 300,
+    "MW DC Capacity": 400,
+    "Client": "Longroad",
+    "Longitude": -102.827,
+    "Latitude": 33.1903
+  },
+  {
+    "SOLV BESS PROJECT": "Misae Solar Park II",
+    "Location": null,
+    "MW AC Capacity": 332,
+    "MW DC Capacity": 431,
+    "Client": "Greenalia",
+    "Longitude": -100.21388888889,
+    "Latitude": 34.425
+  },
+  {
+    "SOLV BESS PROJECT": "Adams Creek",
+    "Location": null,
+    "MW AC Capacity": 250,
+    "MW DC Capacity": 325,
+    "Client": "Savion",
+    "Longitude": -98.9172,
+    "Latitude": 34.0308
+  }
+]

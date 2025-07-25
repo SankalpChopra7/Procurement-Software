@@ -1,0 +1,466 @@
+[
+  {
+    "California County": "Alameda",
+    "County Seat": null,
+    "Longitude": -122.25,
+    "Latitude": 37.8,
+    "Population (2022)": 440646.0,
+    "Area (sq. km)": 201.660067
+  },
+  {
+    "California County": "Alpine",
+    "County Seat": null,
+    "Longitude": -119.78027777778,
+    "Latitude": 38.695,
+    "Population (2022)": 191.0,
+    "Area (sq. km)": 16.195
+  },
+  {
+    "California County": "Amador",
+    "County Seat": null,
+    "Longitude": -120.77416666667,
+    "Latitude": 38.348888888889,
+    "Population (2022)": 5019.0,
+    "Area (sq. km)": 9.660477
+  },
+  {
+    "California County": "Butte",
+    "County Seat": null,
+    "Longitude": -121.3925,
+    "Latitude": 39.513888888889,
+    "Population (2022)": 20042.0,
+    "Area (sq. km)": 35.906922
+  },
+  {
+    "California County": "Calaveras",
+    "County Seat": null,
+    "Longitude": -120.68055555556,
+    "Latitude": 38.196111111111,
+    "Population (2022)": 2994.0,
+    "Area (sq. km)": 21.741253
+  },
+  {
+    "California County": "Colusa",
+    "County Seat": null,
+    "Longitude": -122.00944444444,
+    "Latitude": 39.214444444444,
+    "Population (2022)": 6411.0,
+    "Area (sq. km)": 4.75069
+  },
+  {
+    "California County": "Contra Costa",
+    "County Seat": null,
+    "Longitude": -122.13416666667,
+    "Latitude": 38.019444444444,
+    "Population (2022)": 37287.0,
+    "Area (sq. km)": 35.313395
+  },
+  {
+    "California County": "Del Norte",
+    "County Seat": null,
+    "Longitude": -124.201666666667,
+    "Latitude": 41.7561111111111,
+    "Population (2022)": 6673.0,
+    "Area (sq. km)": 6.254738
+  },
+  {
+    "California County": "El Dorado",
+    "County Seat": null,
+    "Longitude": -120.79861111111,
+    "Latitude": 38.729722222222,
+    "Population (2022)": 10747.0,
+    "Area (sq. km)": 15.054961
+  },
+  {
+    "California County": "Fresno",
+    "County Seat": null,
+    "Longitude": -119.79222222222,
+    "Latitude": 36.781666666667,
+    "Population (2022)": 542107.0,
+    "Area (sq. km)": 296.999604
+  },
+  {
+    "California County": "Glenn",
+    "County Seat": null,
+    "Longitude": -122.19361111111,
+    "Latitude": 39.524444444444,
+    "Population (2022)": 6072.0,
+    "Area (sq. km)": 7.44145
+  },
+  {
+    "California County": "Humboldt",
+    "County Seat": null,
+    "Longitude": -124.16361111111,
+    "Latitude": 40.801944444444,
+    "Population (2022)": 26512.0,
+    "Area (sq. km)": 37.434816
+  },
+  {
+    "California County": "Imperial",
+    "County Seat": null,
+    "Longitude": -115.5630514,
+    "Latitude": 32.792,
+    "Population (2022)": 44322.0,
+    "Area (sq. km)": 29.058856
+  },
+  {
+    "California County": "Inyo",
+    "County Seat": null,
+    "Longitude": -118.2,
+    "Latitude": 36.802777777778,
+    "Population (2022)": 593.0,
+    "Area (sq. km)": 12.612098
+  },
+  {
+    "California County": "Kern",
+    "County Seat": null,
+    "Longitude": -119.01861111111,
+    "Latitude": 35.405833333333,
+    "Population (2022)": 403455.0,
+    "Area (sq. km)": 389.17646
+  },
+  {
+    "California County": "Kings",
+    "County Seat": null,
+    "Longitude": -119.64555555556,
+    "Latitude": 36.3275,
+    "Population (2022)": 57990.0,
+    "Area (sq. km)": 43.521432
+  },
+  {
+    "California County": "Lake",
+    "County Seat": null,
+    "Longitude": -122.91583333333,
+    "Latitude": 39.043055555556,
+    "Population (2022)": 5026.0,
+    "Area (sq. km)": 8.283932
+  },
+  {
+    "California County": "Lassen",
+    "County Seat": null,
+    "Longitude": -120.64611111111,
+    "Latitude": 40.417222222222,
+    "Population (2022)": 16728.0,
+    "Area (sq. km)": 20.798233
+  },
+  {
+    "California County": "Los Angeles",
+    "County Seat": null,
+    "Longitude": -118.24368,
+    "Latitude": 34.05223,
+    "Population (2022)": 3820914.0,
+    "Area (sq. km)": 1302.15171
+  },
+  {
+    "California County": "Madera",
+    "County Seat": null,
+    "Longitude": -120.06083333333,
+    "Latitude": 36.961388888889,
+    "Population (2022)": 66224.0,
+    "Area (sq. km)": 40.893995
+  },
+  {
+    "California County": "Marin",
+    "County Seat": null,
+    "Longitude": -122.530833333333,
+    "Latitude": 37.9733333333333,
+    "Population (2022)": 61271.0,
+    "Area (sq. km)": 58.318204
+  },
+  {
+    "California County": "Mariposa",
+    "County Seat": null,
+    "Longitude": -119.96833,
+    "Latitude": 37.48722,
+    "Population (2022)": 1526.0,
+    "Area (sq. km)": 7.885117
+  },
+  {
+    "California County": "Mendocino",
+    "County Seat": null,
+    "Longitude": -123.20861111111,
+    "Latitude": 39.148888888889,
+    "Population (2022)": 16607.0,
+    "Area (sq. km)": 12.231998
+  },
+  {
+    "California County": "Merced",
+    "County Seat": null,
+    "Longitude": -120.48305555556,
+    "Latitude": 37.302222222222,
+    "Population (2022)": 86333.0,
+    "Area (sq. km)": 60.156228
+  },
+  {
+    "California County": "Modoc",
+    "County Seat": null,
+    "Longitude": -120.5425,
+    "Latitude": 41.487222222222,
+    "Population (2022)": 2715.0,
+    "Area (sq. km)": 7.374112
+  },
+  {
+    "California County": "Mono",
+    "County Seat": null,
+    "Longitude": -119.23138888889,
+    "Latitude": 38.255833333333,
+    "Population (2022)": 553.0,
+    "Area (sq. km)": 56.327347
+  },
+  {
+    "California County": "Monterey",
+    "County Seat": null,
+    "Longitude": -121.65555555556,
+    "Latitude": 36.677777777778,
+    "Population (2022)": 163542.0,
+    "Area (sq. km)": 61.249403
+  },
+  {
+    "California County": "Napa",
+    "County Seat": null,
+    "Longitude": -122.3,
+    "Latitude": 38.3,
+    "Population (2022)": 79246.0,
+    "Area (sq. km)": 46.743964
+  },
+  {
+    "California County": "Nevada",
+    "County Seat": null,
+    "Longitude": -118.67138888889,
+    "Latitude": 39.4375,
+    "Population (2022)": null,
+    "Area (sq. km)": null
+  },
+  {
+    "California County": "Orange",
+    "County Seat": null,
+    "Longitude": -117.88138888889,
+    "Latitude": 33.740833333333,
+    "Population (2022)": 310227.0,
+    "Area (sq. km)": 70.945241
+  },
+  {
+    "California County": "Placer",
+    "County Seat": null,
+    "Longitude": -121.07444444444,
+    "Latitude": 38.898611111111,
+    "Population (2022)": 13776.0,
+    "Area (sq. km)": 18.559587
+  },
+  {
+    "California County": "Plumas",
+    "County Seat": null,
+    "Longitude": -120.94778,
+    "Latitude": 39.93611,
+    "Population (2022)": 1630.0,
+    "Area (sq. km)": 10.939489
+  },
+  {
+    "California County": "Riverside",
+    "County Seat": null,
+    "Longitude": -117.3725,
+    "Latitude": 33.9822222222222,
+    "Population (2022)": 317261.0,
+    "Area (sq. km)": 211.181608
+  },
+  {
+    "California County": "Sacramento",
+    "County Seat": null,
+    "Longitude": -121.48611111111,
+    "Latitude": 38.575277777778,
+    "Population (2022)": 524943.0,
+    "Area (sq. km)": 259.273528
+  },
+  {
+    "California County": "San Benito",
+    "County Seat": null,
+    "Longitude": -121.39806,
+    "Latitude": 36.84694,
+    "Population (2022)": 41678.0,
+    "Area (sq. km)": 18.969922
+  },
+  {
+    "California County": "San Bernardino",
+    "County Seat": null,
+    "Longitude": -117.29305555556,
+    "Latitude": 34.129444444444,
+    "Population (2022)": 222101.0,
+    "Area (sq. km)": 160.452909
+  },
+  {
+    "California County": "San Diego",
+    "County Seat": null,
+    "Longitude": -117.1625,
+    "Latitude": 32.715,
+    "Population (2022)": 1386932.0,
+    "Area (sq. km)": 964.497168
+  },
+  {
+    "California County": "San Francisco",
+    "County Seat": null,
+    "Longitude": -122.416388888889,
+    "Latitude": 37.7775,
+    "Population (2022)": 808988.0,
+    "Area (sq. km)": 600.592202
+  },
+  {
+    "California County": "San Joaquin",
+    "County Seat": null,
+    "Longitude": -121.30083333333,
+    "Latitude": 37.975555555556,
+    "Population (2022)": 320804.0,
+    "Area (sq. km)": 167.701799
+  },
+  {
+    "California County": "San Luis Obispo",
+    "County Seat": null,
+    "Longitude": -120.66305555556,
+    "Latitude": 35.274166666667,
+    "Population (2022)": 47063.0,
+    "Area (sq. km)": 34.407674
+  },
+  {
+    "California County": "San Mateo",
+    "County Seat": null,
+    "Longitude": -122.23611111111,
+    "Latitude": 37.482777777778,
+    "Population (2022)": 84292.0,
+    "Area (sq. km)": 89.80136
+  },
+  {
+    "California County": "Santa Barbara",
+    "County Seat": null,
+    "Longitude": -119.71416666667,
+    "Latitude": 34.425833333333,
+    "Population (2022)": 88665.0,
+    "Area (sq. km)": 108.753384
+  },
+  {
+    "California County": "Santa Clara",
+    "County Seat": null,
+    "Longitude": -121.87277777778,
+    "Latitude": 37.304166666667,
+    "Population (2022)": 971233.0,
+    "Area (sq. km)": 467.553078
+  },
+  {
+    "California County": "Santa Cruz",
+    "County Seat": null,
+    "Longitude": -122.026252,
+    "Latitude": 36.97205,
+    "Population (2022)": 62956.0,
+    "Area (sq. km)": 40.995694
+  },
+  {
+    "California County": "Shasta",
+    "County Seat": null,
+    "Longitude": -122.391666666667,
+    "Latitude": 40.5863888888889,
+    "Population (2022)": 93611.0,
+    "Area (sq. km)": 158.442268
+  },
+  {
+    "California County": "Sierra",
+    "County Seat": null,
+    "Longitude": -120.81222222222,
+    "Latitude": 39.5675,
+    "Population (2022)": 290.0,
+    "Area (sq. km)": 8.252265
+  },
+  {
+    "California County": "Siskiyou",
+    "County Seat": null,
+    "Longitude": -122.6375,
+    "Latitude": 41.726666666667,
+    "Population (2022)": 7827.0,
+    "Area (sq. km)": 26.050052
+  },
+  {
+    "California County": "Solano",
+    "County Seat": null,
+    "Longitude": -122.05416666667,
+    "Latitude": 38.257777777778,
+    "Population (2022)": 119881.0,
+    "Area (sq. km)": 106.668354
+  },
+  {
+    "California County": "Sonoma",
+    "County Seat": null,
+    "Longitude": -122.70472222222,
+    "Latitude": 38.448611111111,
+    "Population (2022)": 178127.0,
+    "Area (sq. km)": 107.478244
+  },
+  {
+    "California County": "Stanislaus",
+    "County Seat": null,
+    "Longitude": -120.99444444444,
+    "Latitude": 37.661388888889,
+    "Population (2022)": 218464.0,
+    "Area (sq. km)": 116.046377
+  },
+  {
+    "California County": "Sutter",
+    "County Seat": null,
+    "Longitude": -121.62611111111,
+    "Latitude": 39.134722222222,
+    "Population (2022)": 70117.0,
+    "Area (sq. km)": 38.85828
+  },
+  {
+    "California County": "Tehama",
+    "County Seat": null,
+    "Longitude": -122.23805555556,
+    "Latitude": 40.176666666667,
+    "Population (2022)": 14710.0,
+    "Area (sq. km)": 19.882165
+  },
+  {
+    "California County": "Trinity",
+    "County Seat": null,
+    "Longitude": -122.936,
+    "Latitude": 40.7367,
+    "Population (2022)": 3667.0,
+    "Area (sq. km)": 26.998534
+  },
+  {
+    "California County": "Tulare",
+    "County Seat": null,
+    "Longitude": -119.2925,
+    "Latitude": 36.3302777777778,
+    "Population (2022)": 141384.0,
+    "Area (sq. km)": 97.10887
+  },
+  {
+    "California County": "Tuolumne",
+    "County Seat": null,
+    "Longitude": -120.38166666667,
+    "Latitude": 37.984444444444,
+    "Population (2022)": 5003.0,
+    "Area (sq. km)": 8.226959
+  },
+  {
+    "California County": "Ventura",
+    "County Seat": null,
+    "Longitude": -119.254206,
+    "Latitude": 34.26778,
+    "Population (2022)": 110763.0,
+    "Area (sq. km)": 83.124476
+  },
+  {
+    "California County": "Yolo",
+    "County Seat": null,
+    "Longitude": -121.77333333333,
+    "Latitude": 38.678611111111,
+    "Population (2022)": 61032.0,
+    "Area (sq. km)": 39.642851
+  },
+  {
+    "California County": "Yuba",
+    "County Seat": null,
+    "Longitude": -121.59138888889,
+    "Latitude": 39.145833333333,
+    "Population (2022)": 12844.0,
+    "Area (sq. km)": 9.283714
+  }
+]
